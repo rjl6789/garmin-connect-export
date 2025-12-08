@@ -3,6 +3,41 @@
 This changelog is inspired by [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## 4.6.1 - 2025-07-20
+
+- added: Add Dockerfile and usage examples to README
+  ([Pull Request #121](https://github.com/pe-st/garmin-connect-export/pull/121) by @nareddyt) 
+
+## 4.6.0 - 2025-04-21
+
+- changed: return error code in case of exception
+  ([Pull Request #117](https://github.com/pe-st/garmin-connect-export/pull/117) by @tymmej) 
+- changed: retry gpx download
+  ([Pull Request #118](https://github.com/pe-st/garmin-connect-export/pull/118) by @tymmej) 
+
+## 4.5.0 - 2024-12-18
+
+- changed: minimum Python version is now 3.10 (as the garth library requires 3.10)
+- changed: add filtering by human-readable activity type
+  ([Pull Request #114](https://github.com/pe-st/garmin-connect-export/pull/114) by @RReverser) 
+- fixed: login with OAuth token works again (#115)
+
+
+## 4.4.0 - 2024-07-12
+
+- changed: allow session directory to work on first go
+  ([Pull Request #108](https://github.com/pe-st/garmin-connect-export/pull/108) by @rjl6789) 
+- fixed: processing of old activities with missing activity name (#113) or elevation correction flag (#112)
+
+
+## 4.3.0 - 2024-03-02
+
+- added: option `-ss` to store OAuth token between sessions
+  ([Pull Request #99](https://github.com/pe-st/garmin-connect-export/pull/99) by @embear) 
+- added: typeId filtering (option `-tf`)
+  ([Pull Request #72](https://github.com/pe-st/garmin-connect-export/pull/72) by @joetimmerman) 
+
+
 ## 4.2.0 - 2023-10-08
 
 - fixed: Use [garth](https://github.com/matin/garth) for OAuth to fix #95
